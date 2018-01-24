@@ -1,0 +1,61 @@
+.header {
+    display: flex;
+    background-color: #4B4B4B
+}
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    background-color: aliceblue;
+    padding: 20px 20px 20px 20px;
+    border: none;
+  }
+
+  *{
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+      box-sizing: border-box;
+  }
+
+*{
+    outline: 1px solid red !important;
+ }
+
+  .logo {
+      width: 300px;
+      padding: 20px 20px 20px 20px;
+  }
+
+  .title
+  {
+      width: 400px;
+      padding: 0px;
+      font-size: 40px;
+      text-align: center;
+  }
+
+  h1 {
+      color: aliceblue;
+  }
+
+  .navbar {
+      overflow: hidden;
+      background-color: #b76c77;
+      width:100%;
+
+  }
+
+  .navbar a {
+      float: left;
+      color: aliceblue;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 20px;
+  }
+
+  h2 {
+
+  }
+
