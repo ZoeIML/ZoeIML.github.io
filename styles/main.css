@@ -1,6 +1,6 @@
 .header {
     display: flex;
-    background-color: #4B4B4B
+    background-color: #4B4B4B;
 }
 
 body {
@@ -37,6 +37,22 @@ body {
 
   h1 {
       color: aliceblue;
+  }
+
+  h2 {
+      color: #4B4B4B;
+      font-size: 30px;
+  }
+
+  h3 {
+      color: black;
+      font-style: italic;
+
+  }
+
+  p {
+      color: black;
+      font-size: 14px;
   }
 
   .navbar {
