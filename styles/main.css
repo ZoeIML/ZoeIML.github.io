@@ -2,7 +2,8 @@
 
 .header {
     display: flex;
-    background-color: #4B4B4B;
+    background-color: #b76c77;
+    width: 100%;
 }
 
 body {
@@ -22,8 +23,11 @@ body {
 
 
   .logo {
-      width: 40px;
+      width: 200px;
+      height: 200px;
       padding: 20px 20px 20px 20px;
+      position: relative;
+      bottom: 15px;
   }
 
   .title
@@ -34,11 +38,11 @@ body {
       text-align: center;
       font-family: 'Merriweather', serif;
       position: relative;
-      left: 300px;
+      left: 0px;
   }
 
   h1 {
-      color: aliceblue;
+      color: #4B4B4B;
   }
 
   h2 {
@@ -61,14 +65,16 @@ body {
 
   .navbar {
       overflow: hidden;
-      background-color: #b76c77;
+      background-color: aliceblue;
       width:100%;
+      position: relative;
+      top: 10px;
 
   }
 
   .navbar a {
       float: left;
-      color: aliceblue;
+      color: #4B4B4B;
       text-align: center;
       padding: 14px 16px;
       text-decoration: none;
