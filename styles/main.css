@@ -29,7 +29,7 @@ body {
 
   .title
   {
-      width: 400px;
+      width: 700px;
       padding: 0px;
       font-size: 40px;
       text-align: center;
@@ -45,14 +45,15 @@ body {
   }
 
   h3 {
-      color: black;
+      color: #4B4B4B;
       font-style: italic;
+      font-size: 25px;
 
   }
 
   p {
       color: black;
-      font-size: 14px;
+      font-size: 20px;
   }
 
   .navbar {
