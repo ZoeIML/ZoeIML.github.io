@@ -1,3 +1,5 @@
+
+
 .header {
     display: flex;
     background-color: #4B4B4B;
@@ -6,7 +8,7 @@
 body {
     width: 100%;
     margin: 0 auto;
-    background-color: aliceblue;
+    background-color: #4B4B4B;
     padding: 20px 20px 20px 20px;
     border: none;
   }
@@ -40,20 +42,20 @@ body {
   }
 
   h2 {
-      color: #4B4B4B;
+      color: #b76c77;
       font-size: 30px;
       font-family: 'Merriweather', serif;
   }
 
   h3 {
-      color: #4B4B4B;
+      color: #b76c77;
       font-style: italic;
       font-size: 25px;
 
   }
 
   p {
-      color: black;
+      color: aliceblue;
       font-size: 20px;
   }
 
@@ -76,10 +78,10 @@ body {
 
   .list {
       font-size: 25px;
-      color: black;
+      color: aliceblue;
   }
 
   .minorlist {
-      color: black;
+      color: aliceblue;
       font-size: 20px;
   }
