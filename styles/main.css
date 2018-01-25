@@ -1,15 +1,8 @@
 
-
-.header {
-    display: flex;
-    background-color: #b76c77;
-    width: 100%;
-}
-
 body {
     width: 100%;
     margin: 0 auto;
-    background-color: aliceblue;
+    background-color: white;
     padding: 20px 20px 20px 20px;
     border: none;
   }
@@ -22,13 +15,17 @@ body {
   }
 
 
-  .logo {
-      width: 250px;
-      height: 200px;
-      padding: 20px 20px 20px 20px;
-      position: relative;
-      bottom: 15px;
-  }
+.maintitle {
+    width: 50%;
+    padding: 0px;
+    font-size: 100%;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    position: relative;
+    color:#b76c77;
+    top: 0px;
+    left: 200px;
+}
 
   .title
   {
@@ -39,28 +36,34 @@ body {
       font-family: 'Merriweather', serif;
       position: relative;
       left: 100px;
+      top: 50px;
+      color: #b76c77;
   }
 
   h1 {
-      color: #4B4B4B;
+      color: #b76c77;
+      top: -10px;
   }
 
   h2 {
       color: #b76c77;
       font-size: 30px;
       font-family: 'Merriweather', serif;
+      position: relative;
+      top: 40px;
   }
 
   h3 {
-      color: #b76c77;
+      color: #4B4B4B;
       font-style: italic;
       font-size: 25px;
 
   }
 
   p {
-      color: aliceblue;
+      color: black;
       font-size: 20px;
+      font-family: 'Merriweather', serif;
   }
 
   .navbar {
@@ -68,43 +71,57 @@ body {
       background-color: #4B4B4B;
       width:100%;
       position: relative;
-      top: 0px;
-
+      top: 20px;
   }
 
   .navbar a {
       float: left;
+      display: inline;
       color: aliceblue;
-      text-align: center;
+      text-align: left;
       padding: 14px 16px;
       text-decoration: none;
       font-size: 20px;
       font-family: 'Merriweather', serif;
   }
 
+
   .list {
       font-size: 25px;
       color: aliceblue;
+      position: relative;
+      top: 50px;
   }
 
   .minorlist {
-      color: aliceblue;
-      font-size: 20px;
+    color: black;
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
   }
 
   .blogtext {
-      background-color: #4B4B4B;
-      border: 10px solid #b76c77;
+      background-color: #b76c77;
       position: relative;
-      top: 10px;
+      top: 30px;
   }
 
   .placeholder {
       background-color: #4B4B4B;
       color: aliceblue;
+      text-align: center;
+      position: relative;
+      top: 50px;
   }
 
   .footer {
       position: relative;
-      top: 20px;
+      top: 50px;
+      left: 130px;
+  }
+
+/* For devices larger than 400px */
+@media (min-width: 400px) {
+    .container {
+      width: 85%;
+      padding: 0; }
   }
