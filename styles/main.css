@@ -76,9 +76,7 @@ body {
   .list {
       font-size: 25px;
       color: aliceblue;
-      position: relative;
-      top: 50px;
-  }
+      }
 
   .minorlist {
     color: black;
@@ -106,7 +104,3 @@ body {
       width: 85%;
       padding: 0; }
   }
-
-  .u-max-full-width {
-    max-width: 100%;
-    box-sizing: border-box; }
