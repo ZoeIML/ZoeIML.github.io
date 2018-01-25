@@ -98,6 +98,10 @@ body {
       top: 50px;
   }
 
+  .wireframeimg {
+      width: 50vw;
+  }
+
 /* For devices larger than 400px */
 @media (min-width: 400px) {
     .container {
