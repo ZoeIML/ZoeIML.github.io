@@ -27,10 +27,11 @@ body {
     left: 200px;
 }
 
-
   h1 {
-      color: #b76c77;
+      color: #4B4B4B;
       font-family: 'Merriweather', serif;
+      background-color: #b76c77;
+      text-align: center;
   }
 
   h2 {
@@ -39,6 +40,7 @@ body {
       font-family: 'Merriweather', serif;
       position: relative;
       top: 40px;
+      text-align: center;
   }
 
   h3 {
@@ -125,4 +127,11 @@ body {
     .container {
       width: 85%;
       padding: 0; }
+  }
+
+  .projectButton {
+      background-color: #4B4B4B;
+      color: #b76c77;
+      border-style: solid;
+      border-color: #b76c77;
   }
