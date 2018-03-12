@@ -18,5 +18,3 @@ document.getElementById('button3').addEventListener("click", goMinesweeper);
 function goMinesweeper() {
     location.href="https://zoeiml.github.io/minesweeper"
 }
-
-//Make buttons fade in and out with mouseover 

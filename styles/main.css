@@ -81,6 +81,10 @@ body {
       width:100%;
     }
 
+  .navbar a:hover{
+      color: #b76c77;
+  }
+
   .navbar a {
       float: left;
       display: inline;
@@ -95,8 +99,16 @@ body {
 
   .list {
       font-size: 25px;
-      color: aliceblue;
+      color: #b76c77;
       }
+
+  .list a {
+      color: #b76c77;
+  }
+
+  .list a:hover {
+      color: #4B4B4B;
+  }
 
   .minorlist {
     color: black;
@@ -134,4 +146,9 @@ body {
       color: #b76c77;
       border-style: solid;
       border-color: #b76c77;
+      position: relative;
+  }
+
+  .projectButton:hover {
+      color: aliceblue;
   }
