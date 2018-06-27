@@ -4,4 +4,4 @@
 1. Clone the repo
 
 ## First Up:
-- Begin to rebuild in Angular.js
+- Begin to rebuild in React
